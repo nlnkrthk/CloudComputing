@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>REC Pulse</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <h1>REC Pulse</h1>
+      <p>Static Web Apps + Azure Functions API</p>
+
+      <div class="grid">
+        <div class="col">
+          <strong>Endpoints:</strong>
+          <ul>
+            <li>SWA: <code>/</code></li>
+            <li>API: <code>/api</code></li>
+            <li>Function: <code>/api/hello</code></li>
+          </ul>
+        </div>
+      </div>
+
+      <h3>Check API status</h3>
+      <button id="btnHello" class="btn">Call /api/hello</button>
+      <p>Status: <span id="helloStatus">Waiting…</span></p>
+      <pre id="helloOut" style="display:none"></pre>
+
+      <h3>Quick SQL test (optional)</h3>
+      <p>If you add a get_student function, test it here.</p>
+      <input type="text" id="studentId" placeholder="Enter StudentID">
+      <button id="btnStudent" class="btn">GET /api/get_student</button>
+      <pre id="studentOut" style="display:none"></pre>
+
+      <h3>Repo structure expected:</h3>
+      <pre>
+/
+  index.html
+  css/styles.css
+  js/main.js
+  api/
+    host.json
+    requirements.txt
+    hello/
+      __init__.py
+      function.json
+      </pre>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

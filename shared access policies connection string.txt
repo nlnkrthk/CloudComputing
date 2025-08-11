@@ -1,0 +1,17 @@
+DefaultListenSharedAccessSignature
+Listen
+Endpoint=sb://recpulse-ns.servicebus.windows.net/;SharedAccessKeyName=DefaultListenSharedAccessSignature;SharedAccessKey=to4VjnvWYPlPRKGebX93SnfReWh/aCFGgzIdtYjE8q0=
+
+DefaultFullSharedAccessSignature
+Manage,Listen,Send
+Endpoint=sb://recpulse-ns.servicebus.windows.net/;SharedAccessKeyName=DefaultFullSharedAccessSignature;SharedAccessKey=ZnU3nBPrWFcuUneJ8ljCJT6m1JATUFCCXzg3I06/Ft4=
+
+
+
+
+
+Sql
+azureuser
+N@l!n@123
+
+
